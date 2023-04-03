@@ -1,0 +1,52 @@
+/* Adiciona classes do Bootstrap para estilização de formulário e botões */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  }
+  
+  .btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-right: 10px;
+  }
+  
+  /* Altera estilos específicos de elementos do formulário utilizando classes do Bootstrap */
+  label {
+  font-weight: bold;
+  }
+  
+  #receber-emails-label {
+  font-weight: normal;
+  }
+  
+  /* Estiliza o botão de reset com classe do Bootstrap para cor vermelha */
+  input[type="reset"].btn-danger {
+  background-color: #f44336;
+  }
+  
+  /* Adiciona classe do Bootstrap para centralizar elemento horizontalmente */
+  .container {
+  max-width: 600px;
+  margin: 0 auto;
+  }
+  
+  /* Adiciona classe do Bootstrap para estilizar cabeçalho */
+  h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  }
+  
+  /* Adiciona classe do Bootstrap para estilizar links */
+  a {
+  color: #4CAF50;
+  }
+  
+  /* Adiciona classe do Bootstrap para sublinhar link quando usuário passar o mouse */
+  a:hover {
+  text-decoration: underline;
+  }

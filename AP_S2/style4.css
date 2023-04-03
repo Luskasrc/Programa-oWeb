@@ -1,0 +1,52 @@
+/* Define a fonte e as propriedades do corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define o estilo do título principal */
+  h1 {
+    background-color: #FFC107;
+    color: white;
+    padding: 20px;
+    margin-top: 0;
+  }
+  
+  /* Define as propriedades da tabela */
+  table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  /* Define as propriedades de células de cabeçalho e células de dados na tabela */
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Define as propriedades das células do cabeçalho da tabela */
+  th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Define o estilo de fundo das linhas pares na tabela */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Define o estilo de links */
+  a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Define o estilo de links ao passar o mouse sobre eles */
+  a:hover {
+    color: #FFC107;
+  }
+  

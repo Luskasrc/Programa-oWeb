@@ -1,0 +1,86 @@
+/* Define a fonte e tamanho padrão para o corpo do documento */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Define uma largura máxima para o conteúdo e centraliza horizontalmente */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Estiliza o cabeçalho com tamanho de fonte grande, alinhamento central e margem inferior */
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Estiliza os rótulos do formulário com exibição em bloco, margem inferior e negrito */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estiliza os campos de entrada de texto, e-mail e área de texto do formulário com largura de 100%, borda e raio de borda, preenchimento e margem inferior */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Estiliza o menu suspenso com largura de 100%, borda e raio de borda, preenchimento e margem inferior */
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Estiliza o rótulo do checkbox com peso de fonte normal */
+#receber-emails-label {
+  font-weight: normal;
+}
+
+/* Estiliza os botões do formulário com cor de fundo, cor de texto, preenchimento, raio de borda, cursor e margem direita */
+input[type="submit"],
+input[type="reset"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Estiliza o botão de reset com cor de fundo diferente */
+input[type="reset"] {
+  background-color: #f44336;
+}
+
+/* Quando o usuário passa o mouse sobre um botão, reduz a opacidade do botão */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  opacity: 0.8;
+}
+
+/* Estiliza os links com texto sem sublinhado e cor específica */
+a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+/* Quando o usuário passa o mouse sobre um link, sublinha o link */
+a:hover {
+  text-decoration: underline;
+}

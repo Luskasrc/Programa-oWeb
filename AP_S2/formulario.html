@@ -1,0 +1,56 @@
+<!-- Código HTML para um formulário de contato com o título "Supermercado - Formulário". -->
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Título da página. -->
+	<title>Supermercado - Formulário</title>
+	<!-- Inclusão de arquivo de estilo externo. -->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<!-- Criação de uma tabela para o menu da página. -->
+<table>
+    <tr>
+        <td><a href="index.html">Menu</a></td>
+    </tr>
+</table>
+<body>
+	<!-- Criação de um cabeçalho principal. -->
+	<h1>Entre em contato</h1>
+	<!-- Criação de um formulário com ação "processar-formulario.php" e método POST. -->
+<form action="processar-formulario.php" method="post">
+	
+	<!-- Criação de um campo de entrada de texto com rótulo "Nome" e atributo "required". -->
+	<label for="nome">Nome:</label>
+	<input type="text" id="nome" name="nome" required>
+	<br>
+
+	<!-- Criação de um campo de entrada de e-mail com rótulo "E-mail" e atributo "required". -->
+	<label for="email">E-mail:</label>
+	<input type="email" id="email" name="email" required>
+	<br>
+
+	<!-- Criação de um campo de entrada de texto com rótulo "Mensagem" e atributo "required". -->
+	<label for="mensagem">Mensagem:</label>
+	<textarea id="mensagem" name="mensagem" required></textarea>
+	<br>
+
+	<!-- Criação de um campo de seleção com rótulo "Motivo do contato" e opções "Dúvida", "Sugestão" e "Reclamação". -->
+	<label for="motivo">Motivo do contato:</label>
+	<select id="motivo" name="motivo">
+		<option value="duvida">Dúvida</option>
+		<option value="sugestao">Sugestão</option>
+		<option value="reclamacao">Reclamação</option>
+	</select>
+	<br>
+
+	<!-- Criação de um campo de seleção com rótulo "Quero receber e-mails com promoções" e valor padrão "checked". -->
+	<label for="receber-emails">Quero receber e-mails com promoções:</label>
+	<input type="checkbox" id="receber-emails" name="receber-emails" checked>
+	<br>
+
+	<!-- Criação de botões de envio e limpeza do formulário. -->
+	<input type="submit" value="Enviar">
+	<input type="reset" value="Limpar">
+</form>
+</body>
+</html>

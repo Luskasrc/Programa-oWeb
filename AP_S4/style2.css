@@ -1,0 +1,169 @@
+/* Definindo fontes padrão e cores usando Bootstrap */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f7f7f7;
+  }
+  
+  /* Estilizando o cabeçalho usando Bootstrap */
+  header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  nav li {
+  margin: 0 10px;
+  }
+  
+  nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+  }
+  
+  nav a:hover {
+  color: #0099ff;
+  }
+  
+  /* Estilizando o conteúdo principal usando Bootstrap */
+  main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  h1, h2 {
+  margin-top: 0;
+  }
+  
+  h1 {
+  font-size: 36px;
+  text-align: center;
+  }
+  
+  h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+  
+  ul {
+  list-style: disc;
+  margin: 0 0 20px 20px;
+  }
+  
+  p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+  }
+  
+  a {
+  color: #0099ff;
+  text-decoration: none;
+  }
+  
+  a:hover {
+  text-decoration: underline;
+  }
+  
+  /* Estilizando o rodapé usando Bootstrap */
+  footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  }
+  
+  footer p {
+  margin: 0;
+  }
+  
+  /* Estilos específicos para esta página usando Bootstrap */
+  table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  }
+  
+  th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+  background-color: #0099ff;
+  color: #fff;
+  }
+  
+  td:first-child {
+  font-weight: bold;
+  }
+  
+  img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  }
+  
+  form {
+  margin-bottom: 20px;
+  }
+  
+  label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+  margin-right: 10px;
+  }
+  
+  input[type="submit"] {
+  background-color: #0099ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+  background-color: #007acc;
+  }
+  
+  /* Responsividade usando Bootstrap */
+  @media screen and (max-width: 768px) {
+  nav ul {
+  flex-direction: column;
+  }
+  nav li {
+    margin: 10px 0;
+}
+
+table {
+    font-size: 14px;
+}
+}
